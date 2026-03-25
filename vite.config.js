@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/QRProject/',
+  // Serve with a relative base path so it works everywhere
+  base: './',
 })
